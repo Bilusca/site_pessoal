@@ -1,0 +1,70 @@
+/* Paleta de Cores
+	Azul 1: #2195D3
+	Azul 2: #152341
+	Azul 3: #D1E3F2
+	Azul 4: #3F76A3
+	Azul 5: #A4CDEA
+	Cinza: #7F929B
+	Branco: #FAFCFE	
+*/
+
+/* ESTILOS GERAIS */
+img {
+	display: block;
+	width: 100%;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	z-index: 10;
+}
+
+.header .logo img{
+	width: 80px;
+	height: 80px;
+	margin: 10px 0;
+}
+
+.header_menu ul {
+	display: block;
+	float: right;
+	padding-top: 25px;
+}
+
+.header_menu ul li{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 20px;
+	letter-spacing: .1em;
+}
+
+.header_menu ul li a {
+	color: #FAFCFE;
+	text-decoration: none;
+}
+
+.header_menu ul li a:hover {
+	color: #000;
+}
+
+/* Intro */
+
+.intro_texto {
+	padding-top: 300px;
+	color: #FAFCFE;
+	text-align: center;
+}
+
+.intro_texto h1 {
+	font-family: Arial, "Times New Roman";
+	letter-spacing: .1em;
+	font-weight: bold;
+}
+
+.intro_texto p {
+	padding: 0 150px;
+	font-size: 18px;
+}
